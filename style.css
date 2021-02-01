@@ -1,7 +1,35 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   color: #222;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+
+
+
+
+.hero {
+  background-image: url('https://images.pexels.com/photos/2974623/pexels-photo-2974623.jpeg?cs=srgb&dl=pexels-wendy-wei-2974623.jpg&fm=jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
 }
